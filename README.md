@@ -12,5 +12,11 @@ Possible ideas for the project, and just to fill out this file some...
 - matlab
 - make
 
+
+
 Pauline's ideas will go here, just as soon as I have some.
 But now I can use this modified file to test out my git-fu.
+
+
+DJ:  I didn't understand the directions fully for the homework.   I need
+to read the correct part of the SWC repository for potential topics...
