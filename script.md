@@ -18,7 +18,7 @@ location could be used.
  - run `git status`, it shows `script.py` as changed
  - run `python script.py`, creating some data files.
  - run `git status` -- it shows `script.py` as modified,
-   and the data files as `?`
+   and the data files as `?` [show as 'untracked' for me - PB]
  - check in the code file?
 
 ## Ignore file ##
@@ -32,7 +32,7 @@ location could be used.
 - should show that the out files are missing, but the data directory
   is still `?`
 
- - ignore the directory now (do you want to add this to the .gitignore file?)
+ - ignore the directory now [do you want to add this to the .gitignore file?]
 
     /data/
 
@@ -50,6 +50,8 @@ location could be used.
 
 - `git add data` or `git add 1.dat` complains about adding ignored files
 - more details of the ignore files
-- different ignore files:  `~/.gitignore`,
-    `.gitignore`, `.git/info/exclude`
-- `git clean`
+- different ignore files:  
+`~/.gitignore` global ignores
+    `.gitignore`, deals with the current directory [and its subdirectories?]
+ `.git/info/exclude` [I would skip discussing this -- looks complicated]
+- `git clean` removes untracked files from the working tree
