@@ -11,12 +11,12 @@ location could be used.
    - clone this repository
    - make a small change to `script.py` so git sees it as changed.
       - this program creates some empty output files, and a directory
-        with output files)
+        with output files
 
 ## Start -- Show the problem ##
 
  - run `git status`, it shows `script.py` as changed
- - run `python script.py`, creating som data files.
+ - run `python script.py`, creating some data files.
  - run `git status` -- it shows `script.py` as modified,
    and the data files as `?`
  - check in the code file?
@@ -32,7 +32,7 @@ location could be used.
 - should show that the out files are missing, but the data directory
   is still `?`
 
- - ignore the directory now
+ - ignore the directory now (do you want to add this to the .gitignore file?)
 
     /data/
 
